@@ -8,9 +8,11 @@ cache:
 
 pages:
   script:
-    - npm install
+    - npm ci
     - npm run build
+    - mv public public_bck
+    - mv out public
 
   artifacts:
     paths:
-    - out
+    - public
