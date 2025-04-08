@@ -6,7 +6,6 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "export": "next build && next export -o ./dist",
     "test": "jest"
   },
   "dependencies": {
@@ -15,9 +14,11 @@
     "gray-matter": "^4.0.3",
     "js-yaml": "^4.1.0",
     "next": "15.2.4",
+    "next-mdx-remote": "^5.0.0",
     "normalize.css": "^8.0.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-schemaorg": "^2.0.0",
     "yaml-loader": "^0.8.1"
   },
   "devDependencies": {
