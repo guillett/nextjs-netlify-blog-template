@@ -1,6 +1,9 @@
 backend:
-  name: git-gateway
-  branch: master
+  name: gitlab
+  branch: main
+  repo: guillett/nextjs-netlify-blog-template
+  auth_type: pkce
+  app_id: 0624e0724598d21915cb6acff487acad6708f7757f325298d60ef36f7936ed5f
 media_folder: public/images
 public_folder: /images
 publish_mode: editorial_workflow
